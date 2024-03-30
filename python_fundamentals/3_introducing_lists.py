@@ -37,3 +37,20 @@ print(phones)
 print(popped_phone)
 del_baja = motorcycles.remove('baja')
 print(motorcycles)
+
+guest_list = ['Papa', 'Mama', 'Sisters', 'Brother']
+print('Invitation: Dinner party for; ' + guest_list[0] + ',' + guest_list[1] + ',' + guest_list[2] + ',' + guest_list[3] + '.')
+
+# organizing a list
+cars = ['bugatti', 'bmw', 'audi', 'toyota', 'hyundai', 'ferrari']
+cars.sort(reverse=True)
+print(cars)
+print(sorted(cars))
+print(cars)
+
+apps = ['facebook', 'twitter', 'instagram', 'whatsapp']
+print(apps)
+apps.reverse()
+print(apps)
+
+print(len(apps))
