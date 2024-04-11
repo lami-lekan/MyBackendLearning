@@ -29,3 +29,23 @@ for value in range(1, 11):
     squares.append(square)
 print(squares)
 print(sum(squares))
+
+square = [value**2 for value in range(1, 11)]
+print(square)
+
+# slicing a list
+players = ['charles', 'martin', 'michael', 'florence', 'eli']
+print(players[0:3])
+
+print("Here is the last three players in my team: ")
+for player in players[-3:]:
+    print(player.title())
+# copying a list
+my_foods = ['pizza', 'falafel', 'carrot cake']
+friend_food = my_foods[:]
+
+print("My favourite foods are: ")
+print(my_foods)
+
+print("\nMy friend favourite foods are:")
+print(friend_food)
