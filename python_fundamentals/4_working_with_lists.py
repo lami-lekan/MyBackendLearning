@@ -49,3 +49,11 @@ print(my_foods)
 
 print("\nMy friend favourite foods are:")
 print(friend_food)
+
+# tuples
+dimension = (200, 50)
+print(dimension[0])
+for dimension in dimension:
+    print(dimension)
+dimension = (500, 100)
+print(dimension)
