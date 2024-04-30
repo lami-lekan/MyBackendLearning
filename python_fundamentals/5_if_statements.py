@@ -28,3 +28,37 @@ print('broom' in items)
 print('bin' in items)
 print('can' not in items)
 
+age = 17
+if age >= 18:
+    print("You are eligible to vote.")
+    print("Have you registered to vote yet?")
+else:
+    print("You are not eligible to vote.")
+    print("Please register when you are 18 or above.")
+
+age = 12
+if age < 4:
+    price = 0
+elif age < 18:
+    price = 5
+else:
+    price = 10
+print("Your admission cost is $" + str(price) + ".")
+
+requested_toppings = ["mushroom", "extra cheese"]
+
+if "mushroom" in requested_toppings:
+    print("Adding mushroom...")
+if "extra cheese" in requested_toppings:
+    print("Adding extra cheese...")
+if "pepperoni" in requested_toppings:
+    print("Adding pepperoni...")
+print("Pizza finished")
+
+alien_color = ['yellow', 'green', 'red']
+alien_shot = 'yellow'
+
+if alien_shot == 'green':
+    print("5 points earned")
+else:
+    print("0 point")
