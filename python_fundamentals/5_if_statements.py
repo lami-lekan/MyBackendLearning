@@ -45,7 +45,7 @@ else:
     price = 10
 print("Your admission cost is $" + str(price) + ".")
 
-requested_toppings = ["mushroom", "extra cheese"]
+requested_toppings = ["mushroom", "extra cheese", "green pepper"]
 
 if "mushroom" in requested_toppings:
     print("Adding mushroom...")
@@ -62,3 +62,34 @@ if alien_shot == 'green':
     print("5 points earned")
 else:
     print("0 point")
+
+for toppings in requested_toppings:
+    if toppings == "green pepper":
+        print("Sorry we are out of green pepper")
+    else:
+        print("Adding " + toppings + ".")
+print("Pizza ready.")
+
+available_toppings = ["extra cheese", "green pepper"]
+
+for toppings in requested_toppings:
+    if toppings in available_toppings:
+        print("Adding " + toppings + ".")
+    else:
+        print("Sorry, we do not have " + toppings + " right now.")
+print("Pizza ready!")
+
+username = ["eric", "admin", "jared", "tim"]
+new_usr = ["eric", "tim", "white", "paige"]
+
+for usr in username:
+    if usr == "admin":
+        print("Hello " + usr.title() + " would you like to see a status report?" )
+    else:
+        print("Hello " + usr.title() + " thank you for logging in again.")
+
+for usr in new_usr:
+    if usr in username:
+        print(usr +  " already in use, please pick another.")
+    else:
+        print("Welcome " + usr.title() + ".")
